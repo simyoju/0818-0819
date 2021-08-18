@@ -37,6 +37,8 @@ let num3 = 2
 num1 > num2 && num2 > num3
 num1 == num2 && num2 > num3
 num1 == num2 || num2 > num3
+// false가 나오게 하나 만들어보자
+num1 * num2 < num1 && -num1 < 0
 
 num1 - num2 > num2 - num3 && num2 == 0
 num1 + num2 > num3 || num3 > 0

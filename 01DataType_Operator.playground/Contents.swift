@@ -7,6 +7,9 @@
     - 비교연산자
     - 논리연산자
     - 대입연산자
+    - 범위연산자
+    - 삼항연산자
+ * print함수
  */
 
 import UIKit // UIKit은 포함해주어야 하는 라이브러리
@@ -49,3 +52,19 @@ num -= 3
 num *= 3
 num /= 3
 num %= 3
+
+print(num)
+var age3 = 20
+print(age3)
+print("age3의 값은 \(age3)이다.")
+age3 = 27
+print("age3의 값은 \(age3)이다.")
+
+var name = "오마이걸"
+print("내가 좋아하는 아이돌 그룹은 \(name)이다")
+
+var myName = "심효주"
+var myAge = 27
+print("나의 이름은 \(myName)이고, 나의 나이는 \(myAge)이다.")
+ 
+print("오늘 따라 너무 졸리다")
